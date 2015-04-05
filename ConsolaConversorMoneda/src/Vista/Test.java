@@ -14,7 +14,7 @@ public class Test {
 
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Ingrese el monto que quiere convertir a pesos chilenos");
+        System.out.println("Ingrese el monto que quiere convertir a dólares");
         int monto = sc.nextInt();
         		
 		CurrencyConvertorSoapProxy conversor = new CurrencyConvertorSoapProxy();
